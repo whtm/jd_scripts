@@ -37,6 +37,9 @@ jobs:
       - name: '运行 【惊喜农场】'
         run: |
           node jd_jxnc.js
+      - name: '运行 【惊喜签到】'
+        run: |
+          node jx_sign.js
         env:
           JD_COOKIE: ${{ secrets.JD_COOKIE }}
           JD_DEBUG: ${{ secrets.JD_DEBUG }}
