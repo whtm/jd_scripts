@@ -35,9 +35,9 @@ jobs:
       - name: npm install
         run: |
           npm install
-      - name: '运行 【全民开红包脚本】'
+      - name: '运行 【京东汽车兑换脚本】'
         run: |
-          node jd_redPacket.js
+          node jd_car_exchange.js
         env:
           JD_COOKIE: ${{ secrets.JD_COOKIE }}
           JD_DEBUG: ${{ secrets.JD_DEBUG }}
