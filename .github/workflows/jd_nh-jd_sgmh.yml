@@ -37,6 +37,9 @@ jobs:
           npm install
       - name: '运行 【京东年货节】'
         run: |
+          node jd_sgmh.js
+      - name: '运行 【闪购盲盒】'
+        run: |
           node jd_nh.js
         env:
           JD_COOKIE: ${{ secrets.JD_COOKIE }}
