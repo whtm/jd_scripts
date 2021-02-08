@@ -38,6 +38,9 @@ jobs:
       - name: '运行 【十元街签到】'
         run: |
           node jd_syj.js
+      - name: '运行 【疯狂的Joy】'
+        run: |
+          node jd_crazy_joy.js
         env:
           JD_COOKIE: ${{ secrets.JD_COOKIE }}
           JD_DEBUG: ${{ secrets.JD_DEBUG }}
