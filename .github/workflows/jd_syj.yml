@@ -1,16 +1,16 @@
 # This workflow will do a clean install of node dependencies, build the source code and run tests across different versions of node
 # For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
 
-name: jd_car
+name: jd_syj
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: '40 8 * * *'
+    - cron: '10 7 * * *'
   watch:
     types: started
   repository_dispatch:
-    types: car
+    types: syj
 jobs:
   build:
 
@@ -35,9 +35,9 @@ jobs:
       - name: npm install
         run: |
           npm install
-      - name: '运行 【京东汽车】'
+      - name: '运行 【十元街签到】'
         run: |
-          node jd_car.js
+          node jd_syj.js
         env:
           JD_COOKIE: ${{ secrets.JD_COOKIE }}
           JD_DEBUG: ${{ secrets.JD_DEBUG }}
