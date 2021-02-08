@@ -1,6 +1,6 @@
 ## 特别声明: 
 
-* 本仓库使用：https://gitee.com/lxk0301/jd_scripts/tree/master/，请自行判断
+#### 本仓库使用：https://gitee.com/lxk0301/jd_scripts/tree/master/，请自行判断
 
 * 不要fork! 不要fork!不要fork! 再fork就直接删库，大家都玩不了！！！再fork就直接删库，大家都玩不了！！！滥用github资源会封仓库以及账号
 
@@ -134,22 +134,3 @@
 
 - QuantumultX cookie脚本订阅链接: [lxk0301_cookies.conf](https://gitee.com/lxk0301/jd_scripts/raw/master/QuantumultX/lxk0301_cookies.conf)
 
-## 赞赏码(开发维护不易,请赏杯茶水费)
-
-<div align=center><img width="250" height="250" src="./icon/thanks.jpg"/></div>
-
-
-## 特别感谢(排名不分先后)：
-
-
-* [@NobyDa](https://github.com/NobyDa)
-
-* [@chavyleung](https://github.com/chavyleung)
-
-* [@liuxiaoyucc](https://github.com/liuxiaoyucc)
-
-* [@Zero-S1](https://github.com/Zero-S1)
-
-* [@uniqueque](https://github.com/uniqueque)
-
-* [@nzw9314](https://github.com/nzw9314)
