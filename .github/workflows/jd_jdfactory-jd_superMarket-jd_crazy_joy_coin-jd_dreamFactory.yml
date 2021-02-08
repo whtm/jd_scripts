@@ -6,7 +6,7 @@ name: jd_jdfactory
 on:
   workflow_dispatch:
   schedule:
-    - cron: '10 */1 * * *'
+    - cron: '10 * * * *'
   watch:
     types: started
   repository_dispatch:
@@ -44,9 +44,6 @@ jobs:
       - name: '运行 【京喜工厂】'
         run: |
           node jd_dreamFactory.js
-      - name: '运行 【crazyJoy挂机】'
-        run: |
-          node jd_crazy_joy_coin.js
         env:
           JD_COOKIE: ${{ secrets.JD_COOKIE }}
           JD_DEBUG: ${{ secrets.JD_DEBUG }}
