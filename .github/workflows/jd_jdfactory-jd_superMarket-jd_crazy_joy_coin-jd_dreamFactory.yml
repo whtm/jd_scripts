@@ -38,6 +38,15 @@ jobs:
       - name: '运行 【东东工厂】'
         run: |
           node jd_jdfactory.js
+      - name: '运行 【东东超市】'
+        run: |
+          node jd_superMarket.js
+      - name: '运行 【京喜工厂】'
+        run: |
+          node jd_dreamFactory.js
+      - name: '运行 【crazyJoy挂机】'
+        run: |
+          node jd_crazy_joy_coin.js
         env:
           JD_COOKIE: ${{ secrets.JD_COOKIE }}
           JD_DEBUG: ${{ secrets.JD_DEBUG }}
