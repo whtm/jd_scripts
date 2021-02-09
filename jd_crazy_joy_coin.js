@@ -183,7 +183,7 @@ if ($.isNode()) {
     }
     $.log(`\n\n`)
   }
-  console.log(`==一共运行了${count}次挂机，超过限制退出了。==`)
+  console.log(`==一共运行了${count}次挂机，超过限制退出了。==`);
   return;
 })()
   .catch((e) => {
