@@ -162,10 +162,11 @@ if ($.isNode()) {
     }, 8000);
   }
 
-  while (count < 20) {
+  while (count < 2) {
     count++
-    if (count == 2){ return;}
+    if (count === 2){ return;}
     console.log(`============开始第${count}次挂机=============`)
+    console.log(`\n============开始第${count}次挂机=============`)
     for (let i = 0; i < cookiesArr.length; i++) {
       if (cookiesArr[i]) {
         cookie = cookiesArr[i];
