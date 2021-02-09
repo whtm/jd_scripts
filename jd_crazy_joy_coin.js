@@ -183,6 +183,8 @@ if ($.isNode()) {
     }
     $.log(`\n\n`)
   }
+  console.log(`==一共运行了${count}次挂机，超过限制退出了。==`)
+  return;
 })()
   .catch((e) => {
     $.log('', `❌ ${$.name}, 失败! 原因: ${e}!`, '')
